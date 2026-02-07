@@ -1,7 +1,16 @@
+name = "BlackHoleImaging"
+uuid = "8d16e3c0-1234-5678-9abc-def123456789"
+version = "0.1.0"
+authors = ["Dhruv Lila <dhruvlila2004@gmail.com>"]
+
 [deps]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+FileIO = "1.18.0"
